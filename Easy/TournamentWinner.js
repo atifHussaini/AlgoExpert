@@ -29,11 +29,4 @@ function tournamentWinner(competitions, results) {
     return winner;
   }
 
-  console.log(tournamentWinner({
-    "competitions": [
-      ["HTML", "C#"],
-      ["C#", "Python"],
-      ["Python", "HTML"]
-    ],
-    "results": [0, 0, 1]
-  }));
+  console.log(tournamentWinner([["HTML", "C#"],["C#", "Python"],["Python", "HTML"]],[0, 0, 1]));
