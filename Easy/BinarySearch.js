@@ -15,6 +15,6 @@ function binarySearch(array, target) {
       }
     }
     return -1;
-  }
+}
 
 console.log(binarySearch([0,1,21,32,45,45,61,71,72,73], 0))
