@@ -58,8 +58,4 @@ console.log(optimalFreelancing([
       "deadline": 9,
       "payment": 1
     },
-    {
-      "deadline": 10,
-      "payment": 1
-    }
   ]))
