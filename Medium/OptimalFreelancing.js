@@ -1,6 +1,6 @@
 function optimalFreelancing(jobs) {
     const sortedJobs = jobs.sort((a,b) => a.deadline - b.deadline || b.payment - a.payment);
-    
+    console.log(sortedJobs)
     let days = 1;
     let total = 0;
   
