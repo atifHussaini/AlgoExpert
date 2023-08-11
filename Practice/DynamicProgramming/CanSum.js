@@ -8,7 +8,7 @@ function canSum (targetSum, array, memo = {}) {
         console.log(memo)
         if(canSum(remainder, array, memo)) {
             memo[remainder] = true
-            return true;
+             return true;
         }
         else {
             continue;
