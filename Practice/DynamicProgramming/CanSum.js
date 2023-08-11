@@ -1,13 +1,21 @@
-function canSum (targetSum, array) {
+function canSum (targetSum, array, memo = {}) {
+    if (targetSum in memo) return memo[targetSum];
     if (targetSum === 0) return true;
     if (targetSum < 0) return false;
 
     for (let num of array) {
         const remainder = targetSum - num;
-        console.log(remainder)
-        if(canSum(remainder, array)) return true;
-        else {continue}
+        console.log(memo)
+        if(canSum(remainder, array, memo)) {
+            memo[remainder] = true
+            return true;
+        }
+        else {
+            continue;
+        }
+        
     }
+    memo[targetSum] = false
     return false;
 }
 
