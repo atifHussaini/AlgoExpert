@@ -18,4 +18,4 @@ function howSum (targetSum, numbers, memo = {}) {
     return null;
 }
 
-console.log(howSum(300,[7,14]))
+console.log(howSum(301,[19,15,11]))
