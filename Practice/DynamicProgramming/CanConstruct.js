@@ -1,13 +1,18 @@
-function canConstruct (target, wordBank) {
+function canConstruct (target, wordBank, memo = {}) {
+    if (target in memo) return memo[target];
     if (target === "") return true;
 
     for (let string of wordBank) {
         if(target.indexOf(string) === 0) {
             const remainder = target.replace(string, "");
-            if (canConstruct(remainder, wordBank)) return true;
+            if (canConstruct(remainder, wordBank, memo) === true) {
+                memo[target] = true;
+                return true;
+            }
         }
     }
 
+    memo[target] = false;
     return false;
 }
 
