@@ -22,4 +22,4 @@ function powerset(array) {
     console.log(finalSet)
 }
 
-console.log(powerset([1,2,3,4]))
+console.log(powerset([1,2,3,4,5]))
