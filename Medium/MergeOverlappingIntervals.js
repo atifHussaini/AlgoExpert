@@ -17,4 +17,4 @@ function mergeOverlappingIntervals(array) {
     return array;
 }
 
-console.log(mergeOverlappingIntervals([[1, 22],[-20, 30], [2,87]]));
+console.log(mergeOverlappingIntervals([[1, 22],[-20, 30], [2,87], [6,107]]));
