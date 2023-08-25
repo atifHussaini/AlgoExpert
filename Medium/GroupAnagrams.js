@@ -59,4 +59,4 @@ function groupAnagrams(words) {
     return anagramArr;
 }
 
-console.log(groupAnagrams(["cinema", "a", "flop", "iceman", "meacyne", "lofp", "olfp"]))
+console.log(groupAnagrams(["cinema", "a", "flop", "iceman", "meacyne", "lofp", "olfp", "manice"]))
