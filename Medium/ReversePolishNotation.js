@@ -21,4 +21,4 @@ function reversePolishNotation(tokens) {
     return parseInt(tokensCopy[0]);
 }
 
-console.log(reversePolishNotation(["50", "3", "17", "+", "2", "-", "/"]))
+console.log(reversePolishNotation(["50", "3", "10", "+", "2", "-", "/", "4", "*"]))
