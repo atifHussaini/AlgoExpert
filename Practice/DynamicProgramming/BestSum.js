@@ -20,4 +20,4 @@ function bestSum (targetSum, numbers, memo = {}) {
     return shortestCombination;
 }
 
-console.log(bestSum(100,[1,2,5,25]))
+console.log(bestSum(100,[1,2,5,25,41]))
