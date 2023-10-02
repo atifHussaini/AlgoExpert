@@ -52,18 +52,18 @@ function get_dict_value(dct, path) {
     return final;
 }   
 
-console.log(get_dict_value({
-    "student" : {
-        "roll_number" : {
-            "grade": "10",
-            "friends": "Atif",
-            },
-        "class" : "1st"
-    },
-    "teacher" : {
-        "school" : "ABC"
-    }
-}, "student.roll_number.friends"))
+// console.log(get_dict_value({
+//     "student" : {
+//         "roll_number" : {
+//             "grade": "10",
+//             "friends": "Atif",
+//             },
+//         "class" : "1st"
+//     },
+//     "teacher" : {
+//         "school" : "ABC"
+//     }
+// }, "student.roll_number.friends"))
 
 
 
