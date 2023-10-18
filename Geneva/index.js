@@ -92,7 +92,7 @@ function suffixStripping (string) {
     console.log(finalStr.join(" "));
 }
 
-// console.log(suffixStripping("an extremely dangerous dog is barking"))
+console.log(suffixStripping("an extremely dangerous dog is barking"))
 // console.log(suffixStripping("a boy is jumping quickly"))
 // console.log(suffixStripping("the results cannot be extrapolated to other patient group"))
 // console.log(suffixStripping("the results cannoeding be extrapolated to other patient group"))
