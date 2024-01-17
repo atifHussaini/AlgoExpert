@@ -42,4 +42,4 @@ function isValidSubsequence(array, sequence) {
   return valid;
 }
 
-console.log(isValidSubsequence([1, 1, 6, 1], [1, 1, 1, 6]))
+// console.log(isValidSubsequence([1, 1, 6, 1], [1, 1, 1, 6]))
