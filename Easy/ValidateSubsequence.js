@@ -66,4 +66,4 @@ function isValidSubsequence(array, sequence) {
   return true;
 }
 
-// console.log(isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, -1, 10]));
+console.log(isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, -1, 10]));
