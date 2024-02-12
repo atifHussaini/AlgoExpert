@@ -28,4 +28,4 @@ function nonConstructibleChange(coins) {
 }
 
 
-console.log(nonConstructibleChange([5, 7, 1, 1, 2, 3, 22]));
+// console.log(nonConstructibleChange([5, 7, 1, 1, 2, 3, 22]));
