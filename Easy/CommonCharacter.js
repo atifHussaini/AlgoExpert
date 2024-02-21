@@ -51,4 +51,4 @@ function commonCharacters(strings) {
   return finalArr;
 }
 
-console.log(commonCharacters(["abc", "bcd", "cbaccd"]));
+// console.log(commonCharacters(["abc", "bcd", "cbaccd"]));
