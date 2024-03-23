@@ -23,32 +23,45 @@
 // }
 
 
-function commonCharacters(strings) {
-  const length = strings.length;
-  const stringMap = new Map();
+// function commonCharacters(strings) {
+//   const length = strings.length;
+//   const stringMap = new Map();
 
-  for (let i = 0; i < strings.length; i++) {
-    const string = strings[i].split("");
-    const removeDuplicates = new Set(string);
+//   for (let i = 0; i < strings.length; i++) {
+//     const string = strings[i].split("");
+//     const removeDuplicates = new Set(string);
 
-    for (let j = 0; j < removeDuplicates.length; j++) {
-      const character = removeDuplicates[j];
+//     for (let j = 0; j < removeDuplicates.length; j++) {
+//       const character = removeDuplicates[j];
       
-      if (!stringMap.has(character)) {
-        stringMap.set(character, 1);
-      } else {
-        stringMap.set(character, stringMap.get(character)+1);
-      }
-    }
-  }
+//       if (!stringMap.has(character)) {
+//         stringMap.set(character, 1);
+//       } else {
+//         stringMap.set(character, stringMap.get(character)+1);
+//       }
+//     }
+//   }
   
-  const finalArr = [];
-  for (let [character, value] of stringMap) {
-    if (value === length) {
-      finalArr.push(character);
-    }
-  }
-  return finalArr;
-}
+//   const finalArr = [];
+//   for (let [character, value] of stringMap) {
+//     if (value === length) {
+//       finalArr.push(character);
+//     }
+//   }
+//   return finalArr;
+// }
 
 // console.log(commonCharacters(["abc", "bcd", "cbaccd"]));
+
+function hasTeen (a,b,c) {
+  const arr = [a,b,c];
+
+  for (let i = 0; i < arr.length; i++) {
+    const current = arr[i];
+
+    if (13 <= current <= 19) return true;
+  }
+  return false;
+}
+
+// console.log(hasTeen(1,20,12));
