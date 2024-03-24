@@ -64,4 +64,4 @@ function hasTeen (a,b,c) {
   return false;
 }
 
-// console.log(hasTeen(1,20,12));
+console.log(hasTeen(1,20,12));
