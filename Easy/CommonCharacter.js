@@ -65,3 +65,13 @@ function hasTeen (a,b,c) {
 }
 
 // console.log(hasTeen(1,20,12));
+
+function firstLast6 (nums) {
+  const first = nums[0];
+  const last = nums[length-1];
+
+  if (first === 6 || last === 6) return true;
+  return false;
+}
+
+// console.log(firstLast6([13,6,1,2,6]))
