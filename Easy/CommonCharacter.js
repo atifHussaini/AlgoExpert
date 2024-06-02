@@ -74,4 +74,4 @@ function firstLast6 (nums) {
   return false;
 }
 
-console.log(firstLast6([13,6,1,2,6]));
+// console.log(firstLast6([13,6,1,2,6]));
