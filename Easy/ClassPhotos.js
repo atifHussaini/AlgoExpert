@@ -44,4 +44,4 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
   return true;
 }
 
-// console.log(classPhotos([19, 2, 4, 6, 2, 3, 1, 1, 4],[21, 5, 4, 4, 4, 4, 4, 4, 4]))
+console.log(classPhotos([19, 2, 4, 6, 2, 3, 1, 1, 4],[21, 5, 4, 4, 4, 4, 4, 4, 4]))
